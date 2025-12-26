@@ -16,7 +16,6 @@ public class BookStoreAPIE2E {
     @Test
     public void BookStoreE2E() {
         RestAssured.baseURI = "https://demoqa.com";
-        //String userID = "0b6a4101-6172-4ce0-80d2-7ee452d78d4d";
 
         // Create Account
         String responseUserID =
